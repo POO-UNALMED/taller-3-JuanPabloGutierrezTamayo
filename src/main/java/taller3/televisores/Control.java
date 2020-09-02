@@ -22,7 +22,7 @@ public class Control {
 	}
 	public void enlazar(TV tv) {
 		this.tv = tv;
-		tv.setControl(this.tv.control);
+		this.tv.setControl(tv.getControl());
 	}
 	public TV getTv() {
 		return tv;
