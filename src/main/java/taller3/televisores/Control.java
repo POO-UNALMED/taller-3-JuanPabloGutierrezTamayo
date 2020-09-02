@@ -21,8 +21,8 @@ public class Control {
 		tv.setCanal(canal);
 	}
 	public void enlazar(TV tv) {
-		this.tv=tv;
-		tv.setControl(tv.control);
+		this.tv = tv;
+		this.tv.setControl(tv.control);
 	}
 	public TV getTv() {
 		return tv;
